@@ -1,0 +1,37 @@
+.join-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 35px;
+  width: 92px;
+}
+
+.join-button .overlap-group {
+  border-radius: 10px;
+  height: 35px;
+  position: relative;
+}
+
+.join-button .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 22px;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+  width: 47px;
+}
+
+.join-button .rectangle {
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 100%);
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  height: 35px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 92px;
+}

@@ -1,0 +1,21 @@
+.send-button {
+  background-color: #ffffffb0;
+  border-radius: 10px;
+  height: 51px;
+  position: relative;
+  width: 215px;
+}
+
+.send-button .text-wrapper-7 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  height: 33px;
+  left: 51px;
+  letter-spacing: -0.9px;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  width: 124px;
+}

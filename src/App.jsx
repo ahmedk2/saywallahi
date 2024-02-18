@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Tutor from './components/Tutor';
-import AskAyeeyo from './components/AskAyeeyo';
-import AboutUs from './components/AboutUs';
+import AskAyeeyo from './components/AskAyeeyo/AskAyeeyo';
+import AboutUs from './components/AboutUs/AboutUs';
+import HomePage from './Pages/HomePage';
+import TutorPage from './Pages/TutorPage';
+import AskAyeeyoPage from './Pages/AskAyeeyoPage';
 
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/tutor' element={<Tutor />} />
-            <Route path='/ask' element={<AskAyeeyo />} />
+            <Route path='/' element={<HomePage />} />
+            <Route path='/tutor' element={<TutorPage />} />
+            <Route path='/ask' element={<AskAyeeyoPage />} />
             <Route path='/aboutus' element={<AboutUs />} />
           </Routes>
         </BrowserRouter>

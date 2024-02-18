@@ -1,0 +1,19 @@
+.ask-ayeeo {
+  height: 27px;
+  position: relative;
+  width: 114px;
+}
+
+.ask-ayeeo .div {
+  /* -webkit-text-stroke: 1px #000000; */
+  color: #f4bb00;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: -1px;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: absolute;
+  top: -2px;
+  width: 114px;
+}
